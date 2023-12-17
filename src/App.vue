@@ -11,4 +11,5 @@ import footerPage from '@/components/footer.vue'
 </template>
 
 <style scoped>
+
 </style>

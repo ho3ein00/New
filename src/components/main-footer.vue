@@ -1,19 +1,24 @@
 <template>
   <div class="grid-container">
     <div class="grid-bottom">
-      <img src="@/assets/image1.jpg" alt="image" class="footer-img">
+      <img src="@/assets/image4.jpg" alt="image" class="footer-img">
     </div>
-    <div>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam iste nemo accusantium assumenda, quas modi animi, atque necessitatibus aperiam debitis laudantium, recusandae rerum eligendi eveniet illum laboriosam quos rem nobis.
-      Sunt maiores quis, perferendis eos porro dicta quod, impedit excepturi, quo hic enim laboriosam distinctio voluptatibus quia debitis repellendus nobis odit exercitationem ratione! Deserunt aut consequatur veniam, sit reiciendis repellat?
-      Commodi fugit possimus, culpa ut, asperiores pariatur ab deserunt neque placeat totam et illo expedita quia rem nobis explicabo aut soluta! Quibusdam nihil atque enim velit quisquam ex tenetur eligendi.
-      Iste aspernatur dolorem sequi aperiam commodi officia quo, cupiditate ipsa deserunt repellendus aliquid cumque libero recusandae, numquam error nesciunt aut! Quibusdam explicabo voluptates ullam quas maxime incidunt quos numquam cum!
-      Non vitae minus quidem magni deserunt magnam doloribus delectus ratione, corrupti sapiente cum veritatis ipsum in quibusdam rerum! Mollitia, natus hic sequi eius numquam quia sunt porro quas fugit est?
-      Laborum, minus accusantium laboriosam repellendus impedit eaque dolorum ipsam commodi aspernatur velit officia aliquid beatae quibusdam temporibus veritatis facilis! Aut quae deserunt iste at quidem nesciunt a cumque minus nisi.
+    <div class="mtn">
+      <h1 class="imgname">وورد آف وارکرافت</h1>
+      دنیای حجت و افرا ((به انگلیسی: World of Warcraft)
+      <br><br>
+       «هنر جنگ»[۳] یا جهان جنگ‌پیشه»[۴]) یا به اختصار WoW، یک بازی ویدئویی نقش‌آفرینی برخط چندنفره گسترده از مجموعه بازی‌های وارکرافت است که توسط بلیزارد و در سال ۲۰۰۴ برای مایکروسافت ویندوز ساخته و منتشر شده‌است.[۵][۵][۶]
+
+با بیش از ۱۰ میلیون بازیکن در نوامبر ۲۰۱۴، در حال حاضر دنیای وارکرفت دارای بیشترین بازیکن در سبک ام‌ام‌اوآرپی‌جی است و به همین خاطر در کتاب رکوردهای جهانی گینس به عنوان محبوب‌ترین بازی ام‌ام‌اوآرپی‌جی بر اساس بازیکنان، ثبت شده‌است. این بازی آنلاین است و بازیکنان بعد از انتخاب یک جناح متحدان یا هوردها[ب] وارد نژادهایی می‌شوند که نژادهای متفاوتی دارند. پس از انتخاب شخصیت بازیکن یک گروه را انتخاب می‌کند که در لباس، اسلحه‌ها، طلسم‌ها و در کل سبک بازی با شخصیت تأثیر دارد. متحدان در نسخه اول شامل انسان‌ها[پ]، دورف‌ها[ت]، اِلف‌های شب[ث] و نوم‌ها[ج] است. هوردها در همان پچ اول شامل اورک‌ها[چ]، نامردگان[ح]، تائورن‌ها[خ] و ترول‌ها[د] است. در پچ‌های جدید نژادهای بیشتری اضافه شده‌است.
+
+کلیمدور[ذ] و پادشاهی شرقی[ر] دو قاره اصلی در دنیای وارکرفت هستند. در بسته الحاقی دنیای وارکرفت: خشم پادشاه لیچ، قاره نُرثِند[ز] و همچنین در دنیای وارکرافت: مه‌هایی از پانداریا، قاره پانداریا[ژ] نیز اضافه شده‌است. پیشتر، سیاره اوتلند[س] در نسخه جنگ‌های صلیبی سوزان نیز اضافه شده بود.
     </div>
   </div>
 </template>
 <style scoped>
+*{
+  background-image: linear-gradient(rgba(109, 73, 6, 0.349),rgba(29, 15, 29, 0.555));
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -24,5 +29,14 @@
 }
 .grid-bottom {
   height: 16rem;
+}
+.mtn{
+  color: rgb(0, 0, 0);
+  direction: rtl;
+}
+.imgname{
+  text-align: center;
+  color: rgb(12, 12, 12);
+  font-size: 2rem;
 }
 </style>

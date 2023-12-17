@@ -44,7 +44,7 @@ input:valid {
   width: 50%;
   padding: .6rem 1rem;
   margin: 0 auto;
-  background-color: #0d0;
+  background-color: rgb(221, 0, 0);
   color: white;
   cursor: pointer;
 }

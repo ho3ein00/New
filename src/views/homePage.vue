@@ -6,26 +6,31 @@ import landscapeImage from '@/components/landscape-image.vue'
 <div class="grid-container">
   <div class="grid-child">
     <img src="@/assets/image1.jpg" alt="image" class="img-head">
+    <h1 class="imgname">اساسین کرید</h1>
   </div>
   <div class="grid-child">
-    <img src="@/assets/image2.jpg" alt="image" class="img-head">
+    <img style="height: 730px;width: 100%;" src="@/assets/image2.jpg" alt="image" class="img-headd">
   </div>
 </div>
 <div class="main-txt">
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aliquam necessitatibus corporis impedit sequi expedita temporibus quia eos aperiam sunt explicabo, amet asperiores ea ad, iure aut doloribus illum et!
-  Iusto, earum? Ratione neque consequuntur repellat porro? Rerum ex sunt tempora nulla aperiam eos quasi illo expedita ipsum iusto, mollitia dolorum temporibus, facere excepturi explicabo veniam. Hic laborum commodi rem.
-  Dolorum consequuntur molestias tenetur nulla sed repudiandae pariatur! Earum accusamus quod eos, obcaecati saepe nihil amet non, quia assumenda qui, optio laudantium! Nemo ut iusto quibusdam facere magnam nesciunt itaque!
-  Reprehenderit aperiam unde similique dolorum, vero earum voluptas ipsum ea. Omnis necessitatibus hic ipsum culpa, voluptatum labore voluptatem! Excepturi accusantium ratione deserunt eveniet provident, aut repellat cum ullam beatae non.
-  Est sequi at dolores. Accusantium sunt placeat, natus unde facere deleniti consectetur impedit neque possimus rerum dolorum fugiat praesentium pariatur quos nam voluptate provident animi ipsam assumenda earum. Cumque, minus.
-  Incidunt nobis possimus voluptates, ducimus neque vero ut dignissimos hic provident, rerum harum blanditiis sequi eum libero saepe quam similique id! Voluptas distinctio quidem nemo doloremque quos! Facere, explicabo eius!
-  Sunt quo velit officiis dicta nobis laborum incidunt expedita maxime minima iusto quaerat neque inventore at voluptas, recusandae iste! Omnis quod eius itaque expedita consectetur explicabo ea optio veniam ratione.
-  Delectus explicabo consequatur in officiis ipsa excepturi earum veritatis, alias mollitia placeat minus aut libero odio, facere obcaecati nulla veniam quos quaerat fuga. Ad assumenda in consequuntur reprehenderit explicabo numquam.
-  Eos eum soluta labore quam delectus quo. Odio necessitatibus sit placeat corporis atque porro animi nihil cum natus soluta maxime adipisci eius quia sed iusto eligendi, expedita autem quam et.
+  اساسینز کرید (به انگلیسی: Assassin's Creed)
+  <br>
+   یک بازی ویدئویی در سبک ترکیبی مخفی‌کاری، اکشن-ماجراجویی و جهان باز است. این بازی توسط استودیوی یوبی‌سافت مونترآل توسعه یافته و به وسیلهٔ یوبی‌سافت منتشر شده‌است. اساسینز کرید در نوامبر ۲۰۰۷ برای کنسول‌های پلی‌استیشن ۳ و اکس‌باکس ۳۶۰ انتشار یافت و نسخهٔ مایکروسافت ویندوز آن نیز در ۸ آوریل ۲۰۰۸ منتشر شد. نسخهٔ تبدیل‌شده و پیش‌درآمد این بازی برای نینتندو دی‌اس به نام اساسینز کرید: تاریخچه الطائر در ۵ فوریه ۲۰۰۸ عرضه شد.
+
+داستان این بازی در دو زمان، ۲۰۱۲ میلادی و جنگ صلیبی سوم (۱۱۹۱) در سرزمین مقدس رخ می‌دهد. شخصیت اول آن در زمان حال، فردی به نام دزموند مایلز و در زمان گذشته، یکی از اعضای گروه حشاشین به نام الطائر بن لا أحد است. دزموند زندگی جدش را با کمک دستگاهی به نام «آنیموس» شبیه‌سازی و بازآفرینی می‌کند. الطائر، از اجداد دزموند، یک حشاشی ماهر در دوران جنگ صلیبی سوم بوده، که به دلیل اشتباهش در یک ماموریت، رتبه و جایگاهش را از دست می‌دهد و برای رسیدن به جایگاه پیشینش، باید مأموریت‌های متفاوتی را انجام دهد. این بازی اولین نسخه از مجموعه بازی‌های اساسینز کرید است و در آن، فرد بازیکن آزادانه توانایی کنترل الطائر را در چهار شهر دمشق، اورشلیم، عکا و مصیاف دارد.
 </div>
 <landscapeImage />
 <mainFooter />
 </template>
 <style scoped>
+*{
+  background-image: linear-gradient(rgba(109, 73, 6, 0.349),rgba(29, 15, 29, 0.555));
+}
+@media screen and (max-width: 485px) {
+  .img-headd {
+    display: none;
+  }
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -35,5 +40,12 @@ import landscapeImage from '@/components/landscape-image.vue'
 }
 .main-txt {
   font-style: 1.5rem;
+  direction: rtl;
+  color: #fff;
+}
+.imgname{
+  text-align: center;
+  font-size: 5rem;
+  color: azure;
 }
 </style>
